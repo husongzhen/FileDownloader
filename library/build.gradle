@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-
 android {
     compileSdkVersion COMPILE_SDK_VERSION as int
     buildToolsVersion BUILD_TOOLS_VERSION as String
@@ -24,6 +23,7 @@ android {
         // avoid warning for "Not all execution paths return a value"
         return true
     }
+
 }
 
 dependencies {

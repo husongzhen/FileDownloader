@@ -35,4 +35,11 @@
         android:text="@string/notification_demo_title" />
 
 
+
+    <Button
+        style="@style/DemoButton"
+        android:onClick="onClickDb"
+        android:text="@string/notification_db_title" />
+
+
 </LinearLayout>

@@ -66,6 +66,7 @@ public class TasksManagerDemoActivity extends AppCompatActivity {
 
 
         TasksManager.getImpl().onCreate(new WeakReference<>(this));
+
     }
 
     public void postNotifyDataChanged() {

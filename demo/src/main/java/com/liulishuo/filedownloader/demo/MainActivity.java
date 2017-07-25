@@ -57,6 +57,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, NotificationEntranceActivity.class));
     }
 
+    public void onClickDb(View view){
+        startActivity(new Intent(this, DbTaskTestActivity.class));
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);

@@ -5,12 +5,8 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <!-- When you invoke BaseDownloadTask#setWifiRequired(true), you need declare ACCESS_NETWORK_STATE permission -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission
-        android:name="android.permission.READ_EXTERNAL_STORAGE"
-        android:maxSdkVersion="18" />
-    <uses-permission
-        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:name=".DemoApplication"
@@ -43,6 +39,9 @@
             android:label="@string/tasks_manager_demo_title" />
         <activity
             android:name=".NotificationSampleActivity"
+            android:label="@string/notification_sample_title" />
+        <activity
+            android:name=".DbTaskTestActivity"
             android:label="@string/notification_sample_title" />
         <activity
             android:name=".NotificationMinSetActivity"
