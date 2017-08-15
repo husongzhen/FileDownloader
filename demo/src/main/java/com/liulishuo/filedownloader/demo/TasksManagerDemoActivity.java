@@ -67,6 +67,8 @@ public class TasksManagerDemoActivity extends AppCompatActivity {
 
         TasksManager.getImpl().onCreate(new WeakReference<>(this));
 
+
+
     }
 
     public void postNotifyDataChanged() {
@@ -410,7 +412,6 @@ public class TasksManagerDemoActivity extends AppCompatActivity {
         private TasksManager() {
             dbController = new TasksManagerDBController();
             modelList = dbController.getAllTasks();
-
             initDemo();
         }
 

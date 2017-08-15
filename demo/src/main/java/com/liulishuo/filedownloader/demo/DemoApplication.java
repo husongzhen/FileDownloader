@@ -8,7 +8,6 @@ import com.liulishuo.filedownloader.FileDownloader;
 import com.liulishuo.filedownloader.connection.FileDownloadUrlConnection;
 import com.liulishuo.filedownloader.util.FileDownloadLog;
 import com.liulishuo.filedownloader.util.FileDownloadUtils;
-import com.raizlabs.android.dbflow.config.FlowManager;
 
 import java.net.Proxy;
 
@@ -28,7 +27,6 @@ public class DemoApplication extends Application {
         super.onCreate();
         // for demo.
         CONTEXT = this;
-        FlowManager.init(this);
 
         // just for open the log in this demo project.
         FileDownloadLog.NEED_LOG = BuildConfig.DOWNLOAD_NEED_LOG;

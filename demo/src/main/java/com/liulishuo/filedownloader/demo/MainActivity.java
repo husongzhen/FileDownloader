@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickDb(View view){
-        startActivity(new Intent(this, DbTaskTestActivity.class));
+//        startActivity(new Intent(this, DbTaskTestActivity.class));
     }
 
     @Override
